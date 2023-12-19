@@ -13,6 +13,78 @@
 }
 
 
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background-image: url("./Pictures/Website\ Background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .hero-image {
+    background-image: url("./Pictures/HeaderImage.png");
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  .hero-text button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    margin: 3px;
+    padding: 0px;
+    width: 253px;
+    height: 42px;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  #buttonjoin {
+    color: #210E2D;
+    background-color: #FFB800;
+    border: 3px solid #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin:hover {
+    background-color: transparent;
+    border: 3px solid #FFB800;
+    color: #FFB800;
+  }
+  
+  #buttoncreate {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
 #picturecard {
     width: 100%;
     height: 42%;
@@ -96,4 +168,73 @@
 
 #d20:hover {
     background-color: #866c16;
+}
+
+
+
+/* home page - Games boxes */
+
+/* boardgames box */
+
+.gamesboxes {
+    height: 54%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    margin: 0 2.9%;
+}
+
+.boardgames, .videogames, .roleplaying {
+    width: 28%;
+    border: 2px solid #FBC715;
+    height: 263px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #fbc715;
+    margin-top: 3%;
+}
+
+.boardgames img, .videogames img, .roleplaying img {
+    width: 26%;
+    border-radius: 100%;
+    background-color: #FBC715;
+    padding: 10px;
+    object-fit: cover;
+    position: relative;
+    left: 33%;
+    margin-top: -18%;
+}
+
+.informationboardgames, .informationvideogames, .informationroleplaying {
+    text-align: center;
+    font-family: 'poppins';
+    text-transform: uppercase;
+}
+
+.informationboardgames h3, .informationvideogames h3, .informationroleplaying h3 {
+    color: white;
+    font-size: 31px;
+    line-height: 0;
+    margin-top: 23px;
+}
+
+.informationboardgames p, .informationvideogames p, .informationroleplaying p {
+    color: white;
+    line-height: 0;
+    margin-top: 36px;
+    font-size: 17px;
+}
+
+.informationboardgames button, .informationvideogames button, .informationroleplaying button {
+    color: #210E2D;
+    background-color: #FBC715;
+    padding: 7px 15px 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 40px;
+    position: relative;
+    top: 75px;
+    font-size: 18px;
+    border: none;
 }
