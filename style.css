@@ -13,13 +13,15 @@
 }
 
 
+
+/* Ariyana's hero image */
+
 body, html {
     height: 100%;
     margin: 0;
     padding: 25;
-    background-image: url("./Pictures/Website\ Background.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
   }
   
   .hero-image {
@@ -29,6 +31,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    top: -13%;
   }
   
   .hero-text {
@@ -85,20 +88,38 @@ body, html {
   }
 
 
+
+  /* Sanne's Event cards */
+
+  .cardcontainer {
+    width: 100%;
+    height: 83%;
+    padding: 0 3%;
+}
+
+.cardcontainer h4 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 31px;
+}
+
 #picturecard {
     width: 100%;
-    height: 42%;
+    height: 32%;
     object-fit: cover;
     border-radius: 56px 56px 0 0;
 }
 
 .card {
     width: 28%;
-    height: 87%;
+    height: 70%;
     background-color: #360C51;
     border-radius: 56px;
     font-family: 'poppins';
     font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
 }
 
 .cardinformation {
@@ -127,7 +148,7 @@ body, html {
 
 #d6 {
     width: 7%;
-    background-color: #FBC715;
+    background-color: #FFB800;
     border-radius: 100%;
     padding: 4px;
     position: relative;
@@ -136,7 +157,7 @@ body, html {
 
 #d20 {
     width: 7%;
-    background-color: #FBC715;
+    background-color: #FFB800;
     border-radius: 100%;
     padding: 4px;
     position: relative;
@@ -149,12 +170,12 @@ body, html {
 
 .cardinformation button {
     color: #210E2D;
-    background-color: #FBC715;
+    background-color: #FFB800;
     font-weight: bold;
     text-transform: uppercase;
     padding: 9px 21px 9px 21px;
     border-radius: 31px;
-    margin-top: 21%;
+    margin-top: 7%;
     font-size: 14px;
 }
 
@@ -162,48 +183,40 @@ body, html {
     background-color: #866c16;
 }
 
-#d6:hover {
-    background-color: #866c16;
-}
-
-#d20:hover {
-    background-color: #866c16;
-}
-
 
 
 /* home page - Games boxes */
 
-/* boardgames box */
-
 .gamesboxes {
-    height: 54%;
+    height: 50%;
     position: relative;
-    align-items: center;
+    align-items: baseline;
     display: flex;
     justify-content: space-between;
-    padding-top: 4%;
+    padding-top: 0%;
     margin: 0 2.9%;
 }
 
+/* boardgames box */
+
 .boardgames, .videogames, .roleplaying {
     width: 28%;
-    border: 2px solid #FBC715;
+    border: 2px solid #FFB800;
     height: 263px;
     border-radius: 30px;
-    box-shadow: 0px 0px 20px 0px #fbc715;
+    box-shadow: 0px 0px 20px 0px #FFB800;
     margin-top: 3%;
 }
 
 .boardgames img, .videogames img, .roleplaying img {
     width: 26%;
     border-radius: 100%;
-    background-color: #FBC715;
+    background-color: #FFB800;
     padding: 10px;
     object-fit: cover;
     position: relative;
-    left: 33%;
-    margin-top: -18%;
+    left: 38%;
+    margin-top: -14%;
 }
 
 .informationboardgames, .informationvideogames, .informationroleplaying {
@@ -223,25 +236,25 @@ body, html {
     color: white;
     line-height: 0;
     margin-top: 36px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .informationboardgames button, .informationvideogames button, .informationroleplaying button {
     color: #210E2D;
-    background-color: #FBC715;
+    background-color: #FFB800;
     padding: 7px 15px 5px 15px;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 40px;
     position: relative;
-    top: 75px;
+    top: 71px;
     font-size: 18px;
     border: none;
 }
 
 
 
-/* erem's footer */
+/* Erem's footer */
 
 *{
     padding: 0;
@@ -262,8 +275,8 @@ footer{
     width: 100%;
     height: auto;
     padding: 30px 80px;
-    border-top: 3px solid rgb(255, 208, 0);
-    box-shadow: 1px 1px 20px rgb(255, 208, 0);
+    border-top: 3px solid #FFB800;
+    box-shadow: 1px 1px 20px #FFB800;
     display: grid;
 }
 
@@ -278,7 +291,7 @@ footer .something{
 footer .something .sec h2{
     margin-top: 50px;
     position: relative;
-    color:aliceblue;
+    color:white;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 15px;
@@ -302,12 +315,12 @@ footer .something .contact .info li{
 }
 
 footer .something .contact .info li span{
-    color: rgb(255, 208, 0);
+    color: #FFB800;
     font-size: 20px;
 }
 
 footer .something .contact .info li a{
-    color:aliceblue;
+    color:white;
     text-decoration: none;
 }
 
@@ -330,16 +343,61 @@ footer .something .quicklinks ul li{
 }
 
 footer .something .quicklinks ul li a{
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     margin-bottom: 15px;
     display: inline-block;
 }
 
-footer .something .quicklinks ul li a:hover{
-    color: #7d7d7d;
+footer .something .quicklinks ul li a:hover {
+    color: #FFB800;
 }
 
 .info p {
     margin: 0;
+}
+
+footer .something .contact .info li a:hover {
+    color: #FFB800;
+}
+
+
+/* Charlotte's header */
+
+.head{
+
+    font-size: 20px;
+    position:sticky;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.head img{
+
+    width: 5%;
+}
+
+.head button{
+
+    color: white;
+    position:relative;
+    top:-25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.head button:hover{
+    color: #FFB800;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+}
+
+header {
+    z-index: 10;
+    position: relative;
 }
