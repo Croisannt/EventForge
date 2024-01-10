@@ -831,5 +831,250 @@ button.moreinformation {
 }
 
 
+/*--------------------------------------------------------Join Event------------------------------------------*/
 
+
+.cardcontainer_join {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 10px;
+    justify-items: center; 
+}
+
+#picturecard_join {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_join {
+    width: 80%;
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_join {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.cardinformation_join h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_join h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_join {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_join p {
+    font-weight: 100;
+}
+
+.cardinformation_join button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_join button:hover {
+    background-color: #866c16;
+}
+
+
+/*---------------------------------------------------------Rooms-----------------------------------------------*/
+
+#buttonjoin-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+  
+  #buttoncreate-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
+
+
+.centerbuddy-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -38%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Press Start 2P';
+}
+
+
+.roomstojoin {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.roomstojoin p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.cardcontainer_rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 7rem;
+    justify-items: center; 
+}
+
+#picturecard_rooms {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_rooms {
+    width: 80%; 
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_rooms {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.cardinformation_rooms h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_rooms h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_rooms {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_rooms p {
+    font-weight: 100;
+}
+
+.cardinformation_rooms button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_rooms button:hover {
+    background-color: #866c16;
+}
 
