@@ -648,20 +648,32 @@ section {
 .joinevent{
             
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    border-radius: 50px;
+
+    margin: 30px;
+    width:1025px;
+    height: 520px;
+
+    background-color: #291138;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800
 }
 
-.joinevent img{
+.joindate{
 
-    border-radius: 15px;
-    height: 425px;
-    width:650px;
-    object-fit: cover;
-
-
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .joinevent p{
@@ -676,17 +688,408 @@ section {
     background-color: #ffc125;
     border-radius: 80px;
     border: transparent;
-    font-size:64px;
+    font-size:32px;
     padding: 10px;
-    margin: 30px ;
-    margin-left: 35%;
+}
+
+/* Ariyana's Event page */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
+  
+}
+
+.hero-image {
+    background-image: url("HeaderImage.png");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+  }
+
+form {
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: 100px;
+    line-height: -500px;
+    border: 105px solid #331348;
+    background-color: #331348;
+    padding: 15px;
+    border-radius: 25px;
+    border-width: 100px;
+    border-top: 100px;
+    border-bottom: 100px;   
+}
+
+img.placeholder {
+    height: 500px;
+    margin-left: -1120px;
+    margin-top: -600px;
+}
+
+h4 {
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+label {
+    display: block;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    line-height: 1.0;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 25px;
+    margin-left: 100px;
 
 }
 
-.joinevent2{
-
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-
+.button5 {
+    background-color: #c69438;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
+.button5:hover {
+    background-color: #a37a2e;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 120px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .button1 {padding: 10px 24px;}
+  .button2 {padding: 12px 28px;}
+  .button3 {padding: 14px 40px;}
+  .button4 {padding: 32px 16px;}
+  
+  button {
+    text-decoration: underline;
+    color: #c69438;
+  }
+
+img.picture {
+    height: 500px;
+    margin-top: 300px;
+    margin-left: -800px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: -400px;
+    color: #ffffff;
+
+<<<<<<< HEAD
+}
+=======
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -100px;
+}
+button.moreinformation {
+    color: #c69438 ;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins" ;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*--------------------------------------------------------Join Event------------------------------------------*/
+
+
+.cardcontainer_join {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 10px;
+    justify-items: center; 
+}
+
+#picturecard_join {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_join {
+    width: 80%;
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_join {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.cardinformation_join h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_join h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_join {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_join p {
+    font-weight: 100;
+}
+
+.cardinformation_join button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_join button:hover {
+    background-color: #866c16;
+}
+
+
+/*---------------------------------------------------------Rooms-----------------------------------------------*/
+
+#buttonjoin-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+  
+  #buttoncreate-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
+
+
+.centerbuddy-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -38%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Press Start 2P';
+}
+
+
+.roomstojoin {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.roomstojoin p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.cardcontainer_rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 7rem;
+    justify-items: center; 
+}
+
+#picturecard_rooms {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_rooms {
+    width: 80%; 
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_rooms {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.cardinformation_rooms h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_rooms h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_rooms {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_rooms p {
+    font-weight: 100;
+}
+
+.cardinformation_rooms button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_rooms button:hover {
+    background-color: #866c16;
+}
+
+>>>>>>> 4ac86852da2928bb3c18b72769b153baa2562762

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Submission</title>
+</head>
+<div class="hero-image">
+    <button class="button button1">Home</button>
+    <button class="button button2">Events</button>
+  
+    <button class="button button3">Rooms</button>
+    <button class="button button4">Contacts</button> 
+      <div class="hero-text">
+        <h1 style="font-size:100px">Create Event</h1> 
+      </div>
+</div>
+   <form id="eventForm">
+        <label for="eventName">Event Name:</label>
+        <input type="text" id="eventName" name="eventName" required>
+
+        <label for="eventDate">Event Date:</label>
+        <input type="date" id="eventDate" name="eventDate" required>
+
+        <label for="eventLocation">Event Location:</label>
+        <input type="text" id="eventLocation" name="eventLocation" required>
+    
+        <h4>Type of Event</h4>
+            <ul class="choices">
+        
+        <label>
+        <input type="radio" value="A" /><span
+            >Roleplaying</span>
+        </label>      
+        <label>
+        <input type="radio" value="B" /><span
+            >Video Games</span>
+        </label>       
+        <label>
+        <input type="radio" value="C" /><span
+            >Board Games</span>
+        </label> 
+   
+        <label for="eventDescription">Extra Information:</label>
+        <textarea id="eventDescription" name="eventDescription" rows="4" required></textarea>
+
+        <button type="button" onclick="submitForm()">Create Event</button>
+    </form>
+    
+       <img class="placeholder" src="Placeholder image 2.png">
+
+<script>
+    function submitForm() {
+        const eventName = document.getElementById('eventName').value;
+        const eventDate = document.getElementById('eventDate').value;
+        const eventLocation = document.getElementById('eventLocation').value;
+        const eventDescription = document.getElementById('eventDescription').value;
+
+        
+        console.log('Event Name:', eventName);
+        console.log('Event Date:', eventDate);
+        console.log('Event Location:', eventLocation);
+        console.log('Event Description:', eventDescription);
+
+    
+        document.getElementById('eventForm').reset();
+    }
+</script>
+<div>
+<img class="picture" src="Placeholder image.png">
+<h2>Rent a Room</h2>
+<p>Bla Bla Bla</p>
+<button type="moreinformation">More Information</button>
+</div>
+
+    
