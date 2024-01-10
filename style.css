@@ -535,3 +535,147 @@ border-radius: 40px 0px 0px 40px;
     width: 28%;
 
 }
+
+/* CONTACT PAGE*/
+
+.contacttitle h1{
+
+    font-size: 84px;
+    color: white;
+    
+}
+
+.contacttitle h2{
+
+    font-size: 40px;
+    color: white;
+    
+}
+
+.contacttitle p{
+
+    font-size: 28px;
+    color: white;
+    
+}
+
+.contactform{
+
+    color: white;
+    font-size: 16px;
+    border: #ffc125 3px;
+    background-color: #291138;
+    width: 800px;
+    border-radius: 50px;
+}
+
+.contactform input[type="text"]{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    text-decoration: underline;
+    border:0;
+    border-bottom: 2px solid #ffc125;
+    background-color: transparent;
+    color: white;
+    padding:10px
+}
+
+.contactform form{
+
+
+    width: 200px;
+    padding: 15px;
+
+}
+
+.namecontact{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+   
+}
+
+.emailcontact{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+   
+}
+
+.messagecontact{
+
+    margin-left:200px;
+
+}
+
+.messagecontact input{
+
+    width: 500px;
+
+}
+
+
+
+.contactform button{
+
+    color: black;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size:24px;
+    padding: 10px;
+    margin-left:300px;
+}
+
+/* JOIN EVENT PAGE */
+
+
+.joinevent{
+            
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.joinevent img{
+
+    border-radius: 15px;
+    height: 425px;
+    width:650px;
+    object-fit: cover;
+
+
+}
+
+.joinevent p{
+
+    font-size: 24px;
+    color: white;
+}
+
+.joineventbutton button{
+
+    color: black;
+    background-color: #ffc125;
+    border-radius: 80px;
+    border: transparent;
+    font-size:64px;
+    padding: 10px;
+    margin: 30px ;
+    margin-left: 35%;
+
+}
+
+.joinevent2{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
