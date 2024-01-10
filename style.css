@@ -31,7 +31,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    top: -13%;
+    top: -16%;
   }
   
   .hero-text {
@@ -169,6 +169,7 @@ body, html {
 
 .cardinformation p {
     font-weight: 100;
+    font-size: 16px;
 }
 
 .cardinformation button {
@@ -176,10 +177,10 @@ body, html {
     background-color: #FFB800;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 9px 21px 9px 21px;
+    padding: 7px 15px;
     border-radius: 31px;
     margin-top: 7%;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
 }
 
@@ -240,7 +241,7 @@ body, html {
     color: white;
     line-height: 0;
     margin-top: 36px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .informationboardgames button, .informationvideogames button, .informationroleplaying button {
@@ -252,7 +253,7 @@ body, html {
     border-radius: 40px;
     position: relative;
     top: 71px;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
 }
 
@@ -447,7 +448,7 @@ header {
 
 .imgwtextright p, .textbox2 p{
 
-    font-size: 24px;
+    font-size: 16px;
     color: white;
 }
 
@@ -457,10 +458,14 @@ header {
     background-color: #ffc125;
     border-radius: 50px;
     border: transparent;
-    font-size: 22px;
-    padding: 5px 20px;
+    font-size: 15px;
+    padding: 7px 15px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.imgwtextright button:hover, .textbox2 button:hover, .imgwtextleft button:hover {
+    background-color: #866c16;
 }
 
 .imgwtextright2{
@@ -517,7 +522,7 @@ border-radius: 40px 0px 0px 40px;
 
 .imgwtextleft p{
 
-    font-size: 24px;
+    font-size: 16px;
     color: white;
 }
 
