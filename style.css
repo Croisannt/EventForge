@@ -681,4 +681,155 @@ border-radius: 40px 0px 0px 40px;
     padding: 10px;
 }
 
+/* Ariyana's Event page */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
+  
+}
+
+.hero-image {
+    background-image: url("HeaderImage.png");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+  }
+
+form {
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: 100px;
+    line-height: -500px;
+    border: 105px solid #331348;
+    background-color: #331348;
+    padding: 15px;
+    border-radius: 25px;
+    border-width: 100px;
+    border-top: 100px;
+    border-bottom: 100px;   
+}
+
+img.placeholder {
+    height: 500px;
+    margin-left: -1120px;
+    margin-top: -600px;
+}
+
+h4 {
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+label {
+    display: block;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    line-height: 1.0;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 25px;
+    margin-left: 100px;
+
+}
+
+.button5 {
+    background-color: #c69438;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #a37a2e;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 120px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .button1 {padding: 10px 24px;}
+  .button2 {padding: 12px 28px;}
+  .button3 {padding: 14px 40px;}
+  .button4 {padding: 32px 16px;}
+  
+  button {
+    text-decoration: underline;
+    color: #c69438;
+  }
+
+img.picture {
+    height: 500px;
+    margin-top: 300px;
+    margin-left: -800px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: -400px;
+    color: #ffffff;
+
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -100px;
+}
+button.moreinformation {
+    color: #c69438 ;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins" ;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
 
