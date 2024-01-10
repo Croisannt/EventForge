@@ -658,10 +658,10 @@ section {
         background-color: #291138;
         width: 888px;
         height: auto;
-        margin-left: 20%;
+        margin-left: 10%;
         border-radius: 50px;
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 90px;
         margin-bottom: 50px;
         border: 2px solid #FFB800;
 
@@ -670,20 +670,34 @@ section {
 
 .joinevent p{
 
-    font-size: 24px;
+    font-size: 24px;`
     color: white;
 }
 
 .joineventbutton button{
 
-    color: black;
+    color:#220F2E;
     background-color: #ffc125;
     border-radius: 50px;
     border: transparent;
     font-size:32px;
     padding: 10px;
+    margin-left: 35%;
 }
 
+.joinimage{
+
+    float: inline-end;
+    margin-left: 570px;
+    margin-top: -380px;
+    width: 60%;
+}
+
+.joinimage img{
+
+
+    border-radius: 50px;
+}
 
 /* Ariyana's Event page */
 
