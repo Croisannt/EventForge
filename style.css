@@ -538,17 +538,22 @@ border-radius: 40px 0px 0px 40px;
 
 /* CONTACT PAGE*/
 
+.contacttitle {
+    margin-left: 50px;
+}
+
 .contacttitle h1{
 
     font-size: 84px;
     color: white;
-    
 }
 
 .contacttitle h2{
 
     font-size: 40px;
     color: white;
+    margin: 0;
+    line-height: 0;
     
 }
 
@@ -559,77 +564,83 @@ border-radius: 40px 0px 0px 40px;
     
 }
 
-.contactform{
+.contactformparent {
+    display: flex;
+}
 
+iframe {
+    border-radius: 40px;
+    width: 251px;
+    height: 251px;
+    margin-top: 26px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.contactform {
     color: white;
     font-size: 16px;
     border: #ffc125 3px;
     background-color: #291138;
-    width: 800px;
+    width: 888px;
+    height: 312px;
     border-radius: 50px;
+    margin-left: -136px;
+    padding-left: 261px;
+    padding-top: 51px;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
 }
 
-.contactform input[type="text"]{
-    display: flex;
-    flex-wrap: wrap;
-
-    flex-direction: row;
-    text-decoration: underline;
-    border:0;
-    border-bottom: 2px solid #ffc125;
-    background-color: transparent;
-    color: white;
-    padding:10px
+input, label {
+    display: block;
 }
 
-.contactform form{
-
-
-    width: 200px;
-    padding: 15px;
-
+.namecontactfirst, .emailcontact {
+    float: left;
+    margin-right: 20px;
 }
 
-.namecontact{
-
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-   
+.namecontactlast, .phonecontact, .messagecontact {
+    float: left;
 }
 
-.emailcontact{
-
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-   
+section {
+    width: 520px;
 }
 
-.messagecontact{
-
-    margin-left:200px;
-
+#message {
+    width: 506px;
 }
 
-.messagecontact input{
-
-    width: 500px;
-
+#namefirst, #namelast, #email, #phone {
+    width: 243px;
 }
 
-
-
-.contactform button{
-
-    color: black;
+#submit {
+    color: #210E2D;
     background-color: #ffc125;
     border-radius: 50px;
     border: transparent;
-    font-size:24px;
-    padding: 10px;
-    margin-left:300px;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -24px;
 }
+
+#submit:hover {
+    background-color: #866c16;
+}
+
+#namefirst, #namelast, #email, #phone, #message {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFB800;
+    margin-bottom: 10px;
+}
+  
 
 /* JOIN EVENT PAGE */
 

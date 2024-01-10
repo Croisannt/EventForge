@@ -9,7 +9,7 @@
         <a href=link><button>HOME</button></a>
         <a href=link><button>EVENTS</button></a>
     
-        <img src="Logo.png">
+        <img src="./Pictures/Logo.png">
     
         <a href=link><button>ROOMS</button></a>
         <a href=link><button>CONTACT</button></a>
@@ -32,23 +32,41 @@
     <div class="contactform">
     <form>
 
-        <div class="namecontact">
+    <section>
+
+        <div class="namecontactfirst">
             <label for="namefirst">First Name</label>
             <input type="text" id="namefirst" name="namefirst">
+        </div>
+        <div class="namecontactlast">
             <label for="namelast">Last Name</label>
             <input type="text" id="namelast" name="namelast">
         </div>
+
+    </section>
+
+    <section>
+
         <div class="emailcontact">
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="phone">Phone Number</label><br>
-            <input type="text" id="phone" name="phone"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
         </div>
+        <div class="phonecontact">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+    </section>
+
+    <section>
         <div class="messagecontact">
-            <label for="message">Write your message here</label><br>
-            <input type="text" id="message" name="message"><br>
+            <label for="message">Write your message here</label>
+            <input type="text" id="message" name="message">
         </div>
-        <input type="submit">
+    </section>
+
+    <section>
+        <input type="submit" id="submit">
+    </section>
 
     </form>
     </div>
