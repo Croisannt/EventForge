@@ -637,20 +637,32 @@ border-radius: 40px 0px 0px 40px;
 .joinevent{
             
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    border-radius: 50px;
+
+    margin: 30px;
+    width:1025px;
+    height: 520px;
+
+    background-color: #291138;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800
 }
 
-.joinevent img{
+.joindate{
 
-    border-radius: 15px;
-    height: 425px;
-    width:650px;
-    object-fit: cover;
-
-
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .joinevent p{
@@ -665,17 +677,8 @@ border-radius: 40px 0px 0px 40px;
     background-color: #ffc125;
     border-radius: 80px;
     border: transparent;
-    font-size:64px;
+    font-size:32px;
     padding: 10px;
-    margin: 30px ;
-    margin-left: 35%;
-
 }
 
-.joinevent2{
 
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-
-}
