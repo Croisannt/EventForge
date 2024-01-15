@@ -1,0 +1,1111 @@
+@font-face {
+    font-family: "poppins";
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins" ;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* Ariyana's hero image */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
+  }
+
+  .hero-imagesub {
+    background-image: url("./Pictures/HeaderImage.png");
+    height: 75%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -16%;
+  }
+  
+  .hero-image {
+    background-image: url("./Pictures/HeaderImage.png");
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -16%;
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  .hero-text button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    margin: 3px;
+    padding: 0px;
+    width: 253px;
+    height: 42px;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  #buttonjoin {
+    color: #210E2D;
+    background-color: #FFB800;
+    border: 3px solid #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin:hover {
+    background-color: transparent;
+    border: 3px solid #FFB800;
+    color: #FFB800;
+  }
+  
+  #buttoncreate {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+  .hero-text h1 {
+    font-size: 100px;
+  }
+
+
+
+  /* Sanne's Event cards */
+
+  .cardcontainer {
+    width: 100%;
+    height: 83%;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #populareventhome {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: 45px;
+}
+
+#picturecard {
+    width: 100%;
+    height: 32%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card {
+    width: 28%;
+    height: 70%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation {
+    padding-left: 20px;
+    color: white;
+    padding-top: 15px;
+}
+
+.cardinformation h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.cardicons {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation p {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: -11px;
+}
+
+.cardinformation button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.cardinformation button:hover {
+    background-color: #866c16;
+}
+
+
+
+/* home page - Games boxes */
+
+.gamesboxes {
+    height: 50%;
+    position: relative;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: 0 45px;
+}
+
+/* boardgames box */
+
+.boardgames, .videogames, .roleplaying {
+    width: 28%;
+    border: 2px solid #FFB800;
+    height: 263px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+    margin-top: 3%;
+}
+
+.boardgames img, .videogames img, .roleplaying img {
+    width: 26%;
+    border-radius: 100%;
+    background-color: #FFB800;
+    padding: 10px;
+    object-fit: cover;
+    position: relative;
+    left: 38%;
+    margin-top: -14%;
+}
+
+.informationboardgames, .informationvideogames, .informationroleplaying {
+    text-align: center;
+    font-family: 'poppins';
+    text-transform: uppercase;
+}
+
+.informationboardgames h3, .informationvideogames h3, .informationroleplaying h3 {
+    color: white;
+    font-size: 31px;
+    line-height: 0;
+    margin-top: 23px;
+}
+
+.informationboardgames p, .informationvideogames p, .informationroleplaying p {
+    color: white;
+    line-height: 1.3;
+    margin-top: 36px;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.informationboardgames button, .informationvideogames button, .informationroleplaying button {
+    color: #210E2D;
+    background-color: #FFB800;
+    padding: 7px 15px 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 40px;
+    position: relative;
+    top: 25px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.informationroleplaying button {
+    top: 45px;
+}
+
+.informationboardgames button:hover, .informationvideogames button:hover, .informationroleplaying button:hover {
+    background-color: #866c16;
+}
+
+
+
+/* Erem's footer */
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    width:100%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 80px;
+    border-top: 3px solid #FFB800;
+    box-shadow: 1px 1px 20px #FFB800;
+    display: grid;
+}
+
+footer .something{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 0.8fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+footer .something .sec h2{
+    margin-top: 50px;
+    position: relative;
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .something .sec img{
+    width: 60%;
+    margin-right: 10vh;
+    padding-top: 15px;
+}
+
+footer .something .contact .info{
+position: relative;
+}
+
+footer .something .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+
+footer .something .contact .info li span{
+    color: #FFB800;
+    font-size: 20px;
+}
+
+footer .something .contact .info li a{
+    color:white;
+    text-decoration: none;
+}
+
+.copyrightText{
+    color: #5c3175;
+    width: 100%;
+    background-color: #220F2E;
+    background: linear-gradient(to left, #220F2E, #3A1052);
+    padding: 0px 50px;
+    text-align: center;
+}
+
+footer .something .quicklinks{
+    position: relative;
+}
+
+footer .something .quicklinks ul li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+footer .something .quicklinks ul li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+footer .something .quicklinks ul li a:hover {
+    color: #FFB800;
+}
+
+.info p {
+    margin: 0;
+}
+
+footer .something .contact .info li a:hover {
+    color: #FFB800;
+}
+
+
+/* Charlotte's header */
+
+.head{
+
+    font-size: 20px;
+    position:sticky;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.head img{
+
+    width: 5%;
+}
+
+.head button {
+
+    color: white;
+    position:relative;
+    top:-25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.head button:hover{
+    color: #FFB800;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+
+/* Charlotte's text container */
+
+.imgwtextright{
+            
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 30px;
+    margin-top: -61px;
+    margin-bottom: 100px;
+
+}
+
+.imgwtextright img {
+
+    border-radius: 40px;
+    width: 63%;
+    height: 460px;
+    object-fit: cover;
+    margin-left: -10%;
+
+}
+
+.imgwtextright h3, .textbox2 h3 {
+
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+
+.imgwtextright p, .textbox2 p{
+
+    font-size: 16px;
+    color: white;
+}
+
+.imgwtextright button, .textbox2 button, .imgwtextleft button {
+
+    color: #210E2D;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.imgwtextright button:hover, .textbox2 button:hover, .imgwtextleft button:hover {
+    background-color: #866c16;
+}
+
+.imgwtextright2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 60px;
+    width: 45%;
+    padding-left: 66px;
+
+}
+
+.textbox2 {
+    margin: 45px;
+    margin-bottom: 100px;
+}
+
+
+/* Charlotte's textbox left */
+
+.imgwtextleft{
+            
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 30px 0px 30px 30px;
+    padding-left: 45px;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+}
+
+.imgwtextleft img{
+
+    border-radius: 40px 0px 0px 40px;
+    width: 63%;
+    height: 460px;
+    object-fit: cover;
+    margin-left: 54px;
+
+}
+
+.imgwtextleft h3 {
+
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.imgwtextleft p{
+
+    font-size: 16px;
+    color: white;
+}
+
+.imgwtextleft2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 45%;
+
+}
+
+/* CONTACT PAGE*/
+
+.contacttitle {
+    margin-left: 50px;
+}
+
+.contacttitle h1{
+
+    font-size: 84px;
+    color: white;
+}
+
+.contacttitle h2{
+
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    line-height: 0;
+    
+}
+
+.contacttitle p{
+
+    font-size: 28px;
+    color: white;
+    
+}
+
+.contactformparent {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+iframe {
+    border-radius: 40px;
+    width: 251px;
+    height: 251px;
+    margin-top: 26px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.contactform {
+    color: white;
+    font-size: 16px;
+    border: #ffc125 3px;
+    background-color: #291138;
+    width: 888px;
+    height: 312px;
+    border-radius: 50px;
+    margin-left: -136px;
+    padding-left: 261px;
+    padding-top: 51px;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+input, label {
+    display: block;
+}
+
+.namecontactfirst, .emailcontact {
+    float: left;
+    margin-right: 20px;
+}
+
+.namecontactlast, .phonecontact, .messagecontact {
+    float: left;
+}
+
+section {
+    width: 520px;
+}
+
+#message {
+    width: 506px;
+}
+
+#namefirst, #namelast, #email, #phone {
+    width: 243px;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+#submit {
+    color: #210E2D;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -24px;
+}
+
+#submit:hover {
+    background-color: #866c16;
+}
+
+#namefirst, #namelast, #email, #phone, #message {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFB800;
+    margin-bottom: 10px;
+}
+  
+
+/* JOIN EVENT PAGE */
+
+
+.joinevent{
+            
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+
+    margin: 30px;
+    width:1025px;
+    height: 520px;
+
+    background-color: #291138;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800
+}
+
+.joindate{
+
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.joinevent p{
+
+    font-size: 24px;
+    color: white;
+}
+
+.joineventbutton button{
+
+    color: black;
+    background-color: #ffc125;
+    border-radius: 80px;
+    border: transparent;
+    font-size:32px;
+    padding: 10px;
+}
+
+/*--------------------------------------------------------Join Event------------------------------------------*/
+
+
+.cardcontainer_join {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 10px;
+    justify-items: center; 
+}
+
+#picturecard_join {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_join {
+    width: 80%;
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_join {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.cardinformation_join h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_join h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_join {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_join p {
+    font-weight: 100;
+}
+
+.cardinformation_join button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_join button:hover {
+    background-color: #866c16;
+}
+
+
+/*---------------------------------------------------------Rooms-----------------------------------------------*/
+
+#buttonjoin-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+  
+  #buttoncreate-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
+
+
+.centerbuddy-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -38%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Press Start 2P';
+}
+
+
+.roomstojoin {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.roomstojoin p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.cardcontainer_rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 7rem;
+    justify-items: center; 
+}
+
+#picturecard_rooms {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_rooms {
+    width: 80%; 
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_rooms {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.cardinformation_rooms h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_rooms h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_rooms {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_rooms p {
+    font-weight: 100;
+}
+
+.cardinformation_rooms button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_rooms button:hover {
+    background-color: #866c16;
+}
+
+
+
+/* create event page */
+
+.contactformparent img {
+    border-radius: 40px;
+    width: 251px;
+    height: 251px;
+    margin-top: 26px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.eventnameclass, .eventtimeclass {
+    float: left;
+    margin-right: 10px;
+}
+
+.eventdateclass, .eventlocationclass, .eventdescriptionclass, .typeeventclass {
+    float: left;
+}
+
+#eventName, #eventDate, #eventtime, #eventLocation {
+    width: 250px;
+}
+
+#eventDescription, .typeeventclass {
+    width: 510px;
+}
+
+.choices {
+    display: inline-flex;
+}
+
+.choices label {
+    margin-right: 40px;
+}
+
+.choices input {
+    display: inline;
+    margin-right: 8px;
+}
+
+.typeeventclass h4 {
+    line-height: 0;
+    margin: 0;
+}
+
+.eventdescriptionclass {
+    margin-bottom: 20px;
+}
+
+.createeventform {
+    color: white;
+    font-size: 16px;
+    border: #ffc125 3px;
+    background-color: #291138;
+    width: 969px;
+    height: 495px;
+    border-radius: 50px;
+    margin-left: -190px;
+    padding-left: 300px;
+    padding-top: 75px;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.createeventparent img {
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+    margin-top: 48px;
+    margin-left: 50px;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.createeventparent {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#submit2 {
+    color: #210E2D;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    right: 510px;
+    top: 317px;
+}
+
+#submit2:hover {
+    background-color: #866c16;
+}
+
+#eventName, #eventDate, #eventtime, #eventLocation, #eventDescription {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFB800;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#eventLocation {
+    margin-top: 2px;
+}
+
+#eventName {
+    margin-top: 2px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.hero-textsub h1 {
+    font-size: 100px;
+    margin-left: 70px;
+}
+
+.hero-textsub {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+    font-family: "poppins";
+    text-transform: uppercase;
+}

@@ -1,0 +1,1102 @@
+@font-face {
+    font-family: "poppins";
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins" ;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* Ariyana's hero image */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
+  }
+  
+  .hero-image {
+    background-image: url("./Pictures/HeaderImage.png");
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -16%;
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  .hero-text button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    margin: 3px;
+    padding: 0px;
+    width: 253px;
+    height: 42px;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  
+  #buttonjoin {
+    color: #210E2D;
+    background-color: #FFB800;
+    border: 3px solid #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin:hover {
+    background-color: transparent;
+    border: 3px solid #FFB800;
+    color: #FFB800;
+  }
+  
+  #buttoncreate {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
+
+  /* Sanne's Event cards */
+
+  .cardcontainer {
+    width: 100%;
+    height: 83%;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #populareventhome {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: 45px;
+}
+
+#picturecard {
+    width: 100%;
+    height: 32%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card {
+    width: 28%;
+    height: 70%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.cardinformation h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation p {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.cardinformation button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 15px;
+    border: none;
+}
+
+.cardinformation button:hover {
+    background-color: #866c16;
+}
+
+
+
+/* home page - Games boxes */
+
+.gamesboxes {
+    height: 50%;
+    position: relative;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: 0 45px;
+}
+
+/* boardgames box */
+
+.boardgames, .videogames, .roleplaying {
+    width: 28%;
+    border: 2px solid #FFB800;
+    height: 263px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+    margin-top: 3%;
+}
+
+.boardgames img, .videogames img, .roleplaying img {
+    width: 26%;
+    border-radius: 100%;
+    background-color: #FFB800;
+    padding: 10px;
+    object-fit: cover;
+    position: relative;
+    left: 38%;
+    margin-top: -14%;
+}
+
+.informationboardgames, .informationvideogames, .informationroleplaying {
+    text-align: center;
+    font-family: 'poppins';
+    text-transform: uppercase;
+}
+
+.informationboardgames h3, .informationvideogames h3, .informationroleplaying h3 {
+    color: white;
+    font-size: 31px;
+    line-height: 0;
+    margin-top: 23px;
+}
+
+.informationboardgames p, .informationvideogames p, .informationroleplaying p {
+    color: white;
+    line-height: 0;
+    margin-top: 36px;
+    font-size: 16px;
+}
+
+.informationboardgames button, .informationvideogames button, .informationroleplaying button {
+    color: #210E2D;
+    background-color: #FFB800;
+    padding: 7px 15px 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 40px;
+    position: relative;
+    top: 71px;
+    font-size: 15px;
+    border: none;
+}
+
+.informationboardgames button:hover, .informationvideogames button:hover, .informationroleplaying button:hover {
+    background-color: #866c16;
+}
+
+
+
+/* Erem's footer */
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    width:100%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 80px;
+    border-top: 3px solid #FFB800;
+    box-shadow: 1px 1px 20px #FFB800;
+    display: grid;
+}
+
+footer .something{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 0.8fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+footer .something .sec h2{
+    margin-top: 50px;
+    position: relative;
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .something .sec img{
+    width: 60%;
+    margin-right: 10vh;
+    padding-top: 15px;
+}
+
+footer .something .contact .info{
+position: relative;
+}
+
+footer .something .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+
+footer .something .contact .info li span{
+    color: #FFB800;
+    font-size: 20px;
+}
+
+footer .something .contact .info li a{
+    color:white;
+    text-decoration: none;
+}
+
+.copyrightText{
+    color: #5c3175;
+    width: 100%;
+    background-color: #220F2E;
+    background: linear-gradient(to left, #220F2E, #3A1052);
+    padding: 0px 50px;
+    text-align: center;
+}
+
+footer .something .quicklinks{
+    position: relative;
+}
+
+footer .something .quicklinks ul li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+footer .something .quicklinks ul li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+footer .something .quicklinks ul li a:hover {
+    color: #FFB800;
+}
+
+.info p {
+    margin: 0;
+}
+
+footer .something .contact .info li a:hover {
+    color: #FFB800;
+}
+
+
+/* Charlotte's header */
+
+.head{
+
+    font-size: 20px;
+    position:sticky;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.head img{
+
+    width: 5%;
+}
+
+.head button{
+
+    color: white;
+    position:relative;
+    top:-25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.head button:hover{
+    color: #FFB800;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+
+/* Charlotte's text container */
+
+.imgwtextright{
+            
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 30px;
+    margin-top: -61px;
+    margin-bottom: 100px;
+
+}
+
+.imgwtextright img {
+
+    border-radius: 40px;
+    width: 63%;
+    height: 460px;
+    object-fit: cover;
+    margin-left: -10%;
+
+}
+
+.imgwtextright h3, .textbox2 h3 {
+
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+
+.imgwtextright p, .textbox2 p{
+
+    font-size: 16px;
+    color: white;
+}
+
+.imgwtextright button, .textbox2 button, .imgwtextleft button {
+
+    color: #210E2D;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.imgwtextright button:hover, .textbox2 button:hover, .imgwtextleft button:hover {
+    background-color: #866c16;
+}
+
+.imgwtextright2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 60px;
+
+}
+
+.textbox2 {
+    margin: 45px;
+    margin-bottom: 100px;
+}
+
+
+/* Charlotte's textbox left */
+
+.imgwtextleft{
+            
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 30px 0px 30px 30px;
+    padding-left: 45px;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+}
+
+.imgwtextleft img{
+
+border-radius: 40px 0px 0px 40px;
+    width: 63%;
+    height: 460px;
+    object-fit: cover;
+    margin-left: 189px;
+
+}
+
+.imgwtextleft h3 {
+
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.imgwtextleft p{
+
+    font-size: 16px;
+    color: white;
+}
+
+.imgwtextleft2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 28%;
+
+}
+
+/* CONTACT PAGE*/
+
+.contacttitle {
+    margin-left: 50px;
+}
+
+.contacttitle h1{
+
+    font-size: 84px;
+    color: white;
+}
+
+.contacttitle h2{
+
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    line-height: 0;
+    
+}
+
+.contacttitle p{
+
+    font-size: 28px;
+    color: white;
+    
+}
+
+.contactformparent {
+    display: flex;
+}
+
+iframe {
+    border-radius: 40px;
+    width: 251px;
+    height: 251px;
+    margin-top: 26px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.contactform {
+    color: white;
+    font-size: 16px;
+    border: #ffc125 3px;
+    background-color: #291138;
+    width: 888px;
+    height: 312px;
+    border-radius: 50px;
+    margin-left: -136px;
+    padding-left: 261px;
+    padding-top: 51px;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+input, label {
+    display: block;
+}
+
+.namecontactfirst, .emailcontact {
+    float: left;
+    margin-right: 20px;
+}
+
+.namecontactlast, .phonecontact, .messagecontact {
+    float: left;
+}
+
+section {
+    width: 520px;
+}
+
+#message {
+    width: 506px;
+}
+
+#namefirst, #namelast, #email, #phone {
+    width: 243px;
+}
+
+#submit {
+    color: #210E2D;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -24px;
+}
+
+#submit:hover {
+    background-color: #866c16;
+}
+
+#namefirst, #namelast, #email, #phone, #message {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFB800;
+    margin-bottom: 10px;
+}
+  
+
+/* JOIN EVENT PAGE */
+
+
+.joinevent{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+    
+        color: white;
+        font-size: 16px;
+        border: #ffc125 3px;
+        background-color: #291138;
+        width: 888px;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 50px;
+        padding-top: 60px;
+        padding-bottom: 90px;
+        margin-bottom: 50px;
+        border: 2px solid #FFB800;
+
+        box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.joinevent p{
+
+    font-size: 24px;`
+    color: white;
+}
+
+.joineventbutton button{
+
+    color:#220F2E;
+    background-color: #ffc125;
+    border-radius: 50px;
+    border: transparent;
+    font-size:32px;
+    padding: 10px;
+    margin-left: 35%;
+}
+
+.joinimage{
+
+    float: inline-end;
+    margin-left: 570px;
+    margin-top: -380px;
+    width: 60%;
+}
+
+.joinimage img{
+
+
+    border-radius: 50px;
+}
+
+/* Ariyana's Event page */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 25;
+    background: rgb(59,13,89);
+    background: linear-gradient(90deg, rgba(59,13,89,1) 14%, rgba(33,14,45,1) 42%);
+  
+}
+
+.hero-image {
+    background-image: url("HeaderImage.png");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    line-height: 0.2;
+  }
+
+form {
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: 100px;
+    line-height: -500px;
+    border: 105px solid #331348;
+    background-color: #331348;
+    padding: 15px;
+    border-radius: 25px;
+    border-width: 100px;
+    border-top: 100px;
+    border-bottom: 100px;   
+}
+
+img.placeholder {
+    height: 500px;
+    margin-left: -1120px;
+    margin-top: -600px;
+}
+
+h4 {
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+label {
+    display: block;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    line-height: 1.0;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 25px;
+    margin-left: 100px;
+
+}
+
+.button5 {
+    background-color: #c69438;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #a37a2e;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 120px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .button1 {padding: 10px 24px;}
+  .button2 {padding: 12px 28px;}
+  .button3 {padding: 14px 40px;}
+  .button4 {padding: 32px 16px;}
+  
+  button {
+    text-decoration: underline;
+    color: #c69438;
+  }
+
+img.picture {
+    height: 500px;
+    margin-top: 300px;
+    margin-left: -800px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: -400px;
+    color: #ffffff;
+
+<<<<<<< HEAD
+}
+=======
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -100px;
+}
+button.moreinformation {
+    color: #c69438 ;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins" ;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*--------------------------------------------------------Join Event------------------------------------------*/
+
+
+.cardcontainer_join {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 10px;
+    justify-items: center; 
+}
+
+#picturecard_join {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_join {
+    width: 80%;
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_join {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.cardinformation_join h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_join h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_join {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_join p {
+    font-weight: 100;
+}
+
+.cardinformation_join button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_join button:hover {
+    background-color: #866c16;
+}
+
+
+/*---------------------------------------------------------Rooms-----------------------------------------------*/
+
+#buttonjoin-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttonjoin-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+  
+  #buttoncreate-rooms {
+    border: 3px solid #FFB800;
+    color: #FFB800;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #buttoncreate-rooms:hover {
+    background-color: #FFB800;
+    color: #210E2D;
+  }
+
+
+
+
+.centerbuddy-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -38%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Press Start 2P';
+}
+
+
+.roomstojoin {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-bottom: 33px;
+    font-size: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.roomstojoin p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.cardcontainer_rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+    padding: 0 0px 40px;
+    margin-bottom: 7rem;
+    justify-items: center; 
+}
+
+#picturecard_rooms {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 56px 56px 0 0;
+}
+
+.card_rooms {
+    width: 80%; 
+    height: 90%;
+    background-color: #360C51;
+    border-radius: 56px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 2px solid #FFB800;
+    box-shadow: 0px 0px 20px 0px #FFB800;
+}
+
+.cardinformation_rooms {
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.cardinformation_rooms h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0;
+    margin-bottom: 28px;
+}
+
+.cardinformation_rooms h2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+    color: #CCCCCC;
+}
+
+.cardicons_rooms {
+    margin-top: 17px;
+}
+
+#d6 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 0;
+}
+
+#d20 {
+    width: 7%;
+    background-color: #FFB800;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    left: 6px;
+}
+
+.cardinformation_rooms p {
+    font-weight: 100;
+}
+
+.cardinformation_rooms button {
+    color: #210E2D;
+    background-color: #FFB800;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
+    border-radius: 31px;
+    margin-top: 7%;
+    font-size: 14px;
+    border: none;
+    /*----pointer----*/
+    cursor: pointer;
+}
+
+.cardinformation_rooms button:hover {
+    background-color: #866c16;
+}
+
+>>>>>>> 4ac86852da2928bb3c18b72769b153baa2562762
