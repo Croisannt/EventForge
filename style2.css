@@ -681,52 +681,67 @@ section {
 /* JOIN EVENT PAGE */
 
 
+
+
 .joinevent{
-            
+
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding-left: 60px;
+    
+        color: white;
+        font-size: 16px;
+        border: #ffc125 3px;
+        background-color: #291138;
+        width: 888px;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 50px;
+        padding-top: 60px;
+        padding-bottom: 90px;
+        margin-bottom: 50px;
+        border: 2px solid #FFB800;
 
-    border-radius: 50px;
-
-    margin: 30px;
-    width:1025px;
-    height: 520px;
-
-    background-color: #291138;
-
-    margin-left: auto;
-    margin-right: auto;
-
-
-    border: 2px solid #FFB800;
-    box-shadow: 0px 0px 20px 0px #FFB800
-}
-
-.joindate{
-
-    display:flex;
-    flex-direction: row;
-    margin-left: 50px;
-    margin-right: 50px;
+        box-shadow: 0px 0px 20px 0px #FFB800;
 }
 
 .joinevent p{
 
-    font-size: 24px;
+    font-size: 24px;`
     color: white;
 }
 
 .joineventbutton button{
 
-    color: black;
+    color:#220F2E;
     background-color: #ffc125;
-    border-radius: 80px;
+    border-radius: 50px;
     border: transparent;
     font-size:32px;
     padding: 10px;
+    margin-left: 35%;
 }
+
+.joinimage{
+
+    float: inline-end;
+    margin-left: 570px;
+    margin-top: -380px;
+    width: 60%;
+}
+
+.joinimage img{
+
+
+    border-radius: 50px;
+}
+
+.DESCRIPTION{
+
+    margin-right: 270px;
+}
+
 
 /*--------------------------------------------------------Join Event------------------------------------------*/
 
