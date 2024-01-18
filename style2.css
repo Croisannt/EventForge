@@ -681,11 +681,10 @@ section {
 /* JOIN EVENT PAGE */
 
 
-
-
 .joinevent{
-
+            
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -702,7 +701,9 @@ section {
 
 
     border: 2px solid #FFB800;
-    box-shadow: 0px 0px 20px 0px #FFB800
+    box-shadow: 0px 0px 20px 0px #FFB800;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 .joindate{
@@ -722,34 +723,16 @@ section {
 
 .joineventbutton button{
 
-    color:#220F2E;
+    color: #210E2D;
     background-color: #ffc125;
     border-radius: 50px;
     border: transparent;
-    font-size:32px;
-    padding: 10px;
-    margin-left: 35%;
+    font-size: 20px;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-
-.joinimage{
-
-    float: inline-end;
-    margin-left: 570px;
-    margin-top: -380px;
-    width: 60%;
-}
-
-.joinimage img{
-
-
-    border-radius: 50px;
-}
-
-.DESCRIPTION{
-
-    margin-right: 270px;
-}
-
 
 /*--------------------------------------------------------Join Event------------------------------------------*/
 
