@@ -48,7 +48,8 @@ body, html {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 24%;
+    left: 737px;
+    width: 92%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     line-height: 0.2;
@@ -107,7 +108,7 @@ body, html {
 
   .cardcontainer {
     width: 100%;
-    height: 83%;
+    height: 65%;
     padding: 0 45px;
     display: flex;
     justify-content: space-between;
@@ -130,7 +131,7 @@ body, html {
 
 .card {
     width: 28%;
-    height: 70%;
+    height: 400px;
     background-color: #360C51;
     border-radius: 56px;
     font-family: 'poppins';
@@ -218,6 +219,7 @@ body, html {
     justify-content: space-between;
     padding-top: 0%;
     margin: 0 45px;
+    margin-bottom: 80px;
 }
 
 /* boardgames box */
@@ -446,7 +448,7 @@ header {
     flex-direction: row-reverse;
     justify-content: space-around;
     margin: 30px;
-    margin-top: -61px;
+    margin-top: 100px;
     margin-bottom: 100px;
 
 }
@@ -760,7 +762,8 @@ section {
     padding-left: 20px;
     color: white;
     padding-top: 20px;
-    padding-bottom:40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
 }
 
 .cardinformation_join h1 {
@@ -775,6 +778,7 @@ section {
     font-weight: 100;
     line-height: 0;
     color: #CCCCCC;
+    margin-bottom: 17px;
 }
 
 .cardicons_join {
